@@ -7,31 +7,25 @@
   <header>
     <h1>Job Application Form</h1>
   </header>
-  
   <form>
     <section>
       <h2>Personal Information</h2>
-      
       <div class="form-row">
         <label for="first-name">FIRST NAME</label>
         <input type="text" id="first-name" maxlength="10" pattern="[A-Za-z]{1,10}" required>
       </div>
-      
       <div class="form-row">
         <label for="last-name">LAST NAME</label>
         <input type="text" id="last-name" maxlength="10" pattern="[A-Za-z]{1,10}" required>
       </div>
-      
       <div class="form-row">
         <label for="dob">DATE OF BIRTH</label>
         <input type="date" id="dob" required>
       </div>
-      
       <div class="form-row">
         <label for="mobile-number">MOBILE NUMBER</label>
         <input type="tel" id="mobile-number" pattern="[0-9]{10}" required>
       </div>
-      
       <div class="form-row">
         <label>GENDER</label>
         <div class="radio-group">
@@ -43,26 +37,25 @@
           </label>
         </div>
       </div>
-      
       <div class="form-row">
         <label for="address">ADDRESS</label>
         <textarea id="address" rows="3" required></textarea>
       </div>
-      
       <div class="form-row">
         <label for="state">STATE</label>
         <select id="state" required>
           <option value="" selected disabled>Select the State</option>
-          <option value="state1">State 1</option>
-          <option value="state2">State 2</option>
-          <option value="state3">State 3</option>
+          <option value="state1">Uttar Pradesh</option>
+          <option value="state2">Madhya Pradesh</option>
+          <option value="state3"> Bihar</option>
+          <option value="state4"> Kerala</option>
+          <option value="state5"> Goa</option>
         </select>
       </div>
     </section>
     
     <section>
       <h2>Technical Skills</h2>
-      
       <div class="form-row">
         <label>Choose your technical skills:</label>
         <div class="checkbox-group">
@@ -87,10 +80,9 @@
         </div>
       </div>
     </section>
-    
+
     <section>
       <h2>Educational Details</h2>
-      
       <table>
         <tr>
           <th>SL.No.</th>
@@ -132,7 +124,6 @@
     
     <section>
       <h2>Experience</h2>
-      
       <div class="form-row">
         <label>Choose your experience level:</label>
         <div class="radio-group">
@@ -151,7 +142,6 @@
         </div>
       </div>
     </section>
-    
     <div class="form-actions">
       <input type="submit" value="Submit">
       <input type="reset" value="Reset">
